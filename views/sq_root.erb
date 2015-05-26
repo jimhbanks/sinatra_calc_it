@@ -1,0 +1,9 @@
+<form action="/sq_root" method="get">
+   <label for="first">Snoch to the booch, find me the square root of</label>
+   <input type ="text" name="first" placeholder="this number LITTLE MAN">
+   <input type="submit">
+</form>
+
+<% if @result %>
+<p>The result of <%= @first %> <%= @operator %> <%= @second %> is <%= @result %></p>
+<% end %> 
