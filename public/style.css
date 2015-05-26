@@ -1,35 +1,51 @@
 body {
-    /*background-image: url('/JasonMewes.png');*/
+  background-image: url('http://media.giphy.com/media/dqm5wiUHL8FgI/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 500%;
+    width: 500%; 
+  
 }   
+
+h1 {
+  color: white;
+  font-family: Coronetscript, cursive;  
+  font-size: 32px;
+  
+}
+
 
 li {
   text-decoration: none;
   display: inline-block;
   padding: 4px;
-  border: 1px solid black;
   border-radius: 17px;
+  border: 1px white;
 }
 
 li a {
-  color: black;
+  color: white;
   font-family: helvetica;
   font-size: 32px;
+  
 
 }
 
 li a:hover {
-  color: red;
+  color: white;
   font-size: 34px;
-  border: 1px black;
+  border: 1px white;
   border-radius: 23px; 
 }
 
-nav {
+/*nav {
   text-align: center;
   margin-top: 55px;
+  border: 2px solid black;
 }
 
 form {
   margin-top: 75px;
   text-align: center;
-}
+}*/
+
