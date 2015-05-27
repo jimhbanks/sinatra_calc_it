@@ -1,51 +1,61 @@
 body {
-  background-image: url('http://media.giphy.com/media/dqm5wiUHL8FgI/giphy.gif');
-    background-repeat: no-repeat;
-    background-size: cover; 
-    height: 500%;
-    width: 500%; 
-  
-}   
+  background-image: url('http://amstrad.cpc.free.fr/amstrad/images/cpcscreen2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 300px;
 
-h1 {
-  color: white;
-  font-family: Coronetscript, cursive;  
-  font-size: 32px;
-  
 }
 
-
 li {
-  text-decoration: none;
+  text-decoration: bold;
   display: inline-block;
-  padding: 4px;
-  border-radius: 17px;
-  border: 1px white;
+  padding: 25px;
+  font-family: 'Rokkitt', serif;
 }
 
 li a {
-  color: white;
-  font-family: helvetica;
+  color: #AFE0AD;
+  font-weight: bolder;
+  letter-spacing: 0.0825em;
+  font-family: 'Rokkitt', serif;
   font-size: 32px;
-  
+  text-decoration: none;
 
 }
 
 li a:hover {
-  color: white;
-  font-size: 34px;
-  border: 1px white;
-  border-radius: 23px; 
+  color: green;
+  font-size: 34px; 
 }
 
-/*nav {
+nav {
   text-align: center;
   margin-top: 55px;
-  border: 2px solid black;
 }
 
 form {
   margin-top: 75px;
   text-align: center;
-}*/
+  color: #AFE0AD;
+  font-weight: bolder;
+  letter-spacing: 0.0825em;
+  font-family: 'Rokkitt', serif;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.result {
+  margin-top: 75px;
+  text-align: center;
+  color: #AFE0AD;
+  font-weight: bolder;
+  letter-spacing: 0.0825em;
+  font-family: 'Rokkitt', serif;
+  font-size: 32px;
+  text-decoration: none;
+}
+
+
+
 
